@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Calibri, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#titlu {
+    font-family: "Times New Roman", serif;
+    padding: 24px 16px;
+}
+
+#titlu h1 {
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+#titlu h2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#scor {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    color: lightgreen;
+}
+
+#continut {
+    background-color: #1f1f1f;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+#intrebare {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#raspunsuri button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#raspunsuri button:hover:enabled {
+    background-color: orange;
+}
+
+#raspunsuri button:disabled {
+    cursor: default;
+    opacity: 0.8;
+}
+
+#mesaj {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#start {
+    background-color: orange;
+    color: black;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#start:hover {
+    background-color: lightgreen;
+}
